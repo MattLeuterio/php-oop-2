@@ -22,7 +22,7 @@ include_once __DIR__ . '/partials/template/head.php';
         
         <main class="main-content">
             
-            <section id="computers" class="main-section container active">
+            <section id="computers" class="main-section container">
                 <div class="row">
                     
                     <!-- Computer 1 -->
@@ -152,7 +152,7 @@ include_once __DIR__ . '/partials/template/head.php';
                 </div>
             </section>
 
-            <section id="software" class="main-section container active">
+            <section id="software" class="main-section container">
                 <div class="row">
                     
                     <!-- Software 1 -->

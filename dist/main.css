@@ -47,17 +47,13 @@ body {
 /* Products */
 
 #computers {
-    display: none; /* jQuery */
+    display: block;
 }
 
 #software {
     display: none; /* jQuery */
 }
 
-#computers.active,
-#software.active {
-    display: block;
-}
 
 
 .product-row {

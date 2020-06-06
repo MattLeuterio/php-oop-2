@@ -3,7 +3,7 @@ console.log($);
 
 $(document).ready(function () {
     
-    let activeLink = $('.active-link');
+    const activeLink = $('.active-link');
     const computers = $('#computers');
     const software = $('#software');
     

@@ -54,6 +54,10 @@ body {
     display: none; /* jQuery */
 }
 
+.main-section .card {
+    margin: 5px;
+}
+
 
 
 .product-row {

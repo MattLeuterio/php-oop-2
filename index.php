@@ -3,9 +3,6 @@
 include_once __DIR__ . '/partials/classes/warehouse/computerWarehouse.php';
 include_once __DIR__ . '/partials/classes/warehouse/softwareWarehouse.php';
 
-// var_dump($computer1);
-// var_dump($software1);
-
 // Head
 include_once __DIR__ . '/partials/template/head.php';
 
@@ -26,7 +23,7 @@ include_once __DIR__ . '/partials/template/head.php';
                 <div class="row">
                     
                     <!-- Computer 1 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $computer1->image; ?>" class="card-img" alt="...">
@@ -57,7 +54,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Computer 2 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $computer2->image; ?>" class="card-img" alt="...">
@@ -88,7 +85,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Computer 3 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $computer3->image; ?>" class="card-img" alt="...">
@@ -119,7 +116,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Computer 4 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $computer4->image; ?>" class="card-img" alt="...">
@@ -156,7 +153,7 @@ include_once __DIR__ . '/partials/template/head.php';
                 <div class="row">
                     
                     <!-- Software 1 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $software1->image; ?>" class="card-img" alt="...">
@@ -187,7 +184,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Software 2 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $software2->image; ?>" class="card-img" alt="...">
@@ -218,7 +215,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Software 3 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $software3->image; ?>" class="card-img" alt="...">
@@ -249,7 +246,7 @@ include_once __DIR__ . '/partials/template/head.php';
                     </div>
 
                     <!-- Software 4 -->
-                    <div class="card mb-3 mr-3" style="width: 520px;">
+                    <div class="card" style="width: 520px;">
                         <div class="row product-row no-gutters">
                             <div class="col-md-5">
                                 <img src="<?php echo $software4->image; ?>" class="card-img" alt="...">
